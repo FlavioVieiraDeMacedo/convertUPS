@@ -14,6 +14,7 @@ namespace ConverterUPS.Model
         public string FilePath { get; set; }
         public string LCSI { get; set; }
 
+        public string AID { get; set; }
         //security
         public string DeleteSelf { get; set; }
         public string TerminateDF { get; set; }
